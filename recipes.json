@@ -1,0 +1,252 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Classic Pancakes",
+      "category": "breakfast",
+      "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400&h=300&fit=crop",
+      "cookTime": "15 mins",
+      "difficulty": "Easy",
+      "rating": 4.8,
+      "description": "Fluffy and delicious pancakes perfect for a weekend breakfast. These classic pancakes are light, airy, and golden brown.",
+      "ingredients": [
+        "2 cups all-purpose flour",
+        "2 tablespoons sugar",
+        "2 teaspoons baking powder",
+        "1 teaspoon salt",
+        "2 large eggs",
+        "1¾ cups milk",
+        "¼ cup melted butter",
+        "1 teaspoon vanilla extract"
+      ],
+      "instructions": [
+        "In a large bowl, whisk together flour, sugar, baking powder, and salt.",
+        "In another bowl, beat eggs and then whisk in milk, melted butter, and vanilla.",
+        "Pour the wet ingredients into the dry ingredients and stir until just combined. Don't overmix.",
+        "Heat a lightly oiled griddle or non-stick pan over medium heat.",
+        "Pour ¼ cup of batter for each pancake onto the griddle.",
+        "Cook until bubbles form on surface and edges look dry, then flip and cook until golden brown.",
+        "Serve hot with maple syrup and butter."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Chicken Caesar Salad",
+      "category": "lunch",
+      "image": "https://images.unsplash.com/photo-1546793665-c74683f339c1?w=400&h=300&fit=crop",
+      "cookTime": "20 mins",
+      "difficulty": "Medium",
+      "rating": 4.5,
+      "description": "A fresh and crispy Caesar salad topped with grilled chicken breast, homemade croutons, and parmesan cheese.",
+      "ingredients": [
+        "2 chicken breasts",
+        "1 large romaine lettuce head",
+        "½ cup parmesan cheese, grated",
+        "2 cups bread cubes",
+        "3 tablespoons olive oil",
+        "2 cloves garlic, minced",
+        "¼ cup mayonnaise",
+        "2 tablespoons lemon juice",
+        "1 teaspoon Worcestershire sauce",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Season chicken breasts with salt and pepper, then grill until cooked through.",
+        "Toss bread cubes with olive oil and garlic, then bake until golden for croutons.",
+        "Wash and chop romaine lettuce into bite-sized pieces.",
+        "Make dressing by whisking together mayonnaise, lemon juice, Worcestershire sauce, and half the parmesan.",
+        "Slice the grilled chicken into strips.",
+        "Toss lettuce with dressing in a large bowl.",
+        "Top with chicken strips, croutons, and remaining parmesan cheese.",
+        "Serve immediately while croutons are still crispy."
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Beef Stir Fry",
+      "category": "dinner",
+      "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400&h=300&fit=crop",
+      "cookTime": "25 mins",
+      "difficulty": "Medium",
+      "rating": 4.3,
+      "description": "Quick and flavorful beef stir fry with fresh vegetables in a savory sauce. Perfect for a weeknight dinner.",
+      "ingredients": [
+        "1 lb beef sirloin, sliced thin",
+        "2 bell peppers, sliced",
+        "1 onion, sliced",
+        "2 cups broccoli florets",
+        "3 cloves garlic, minced",
+        "2 tablespoons vegetable oil",
+        "3 tablespoons soy sauce",
+        "2 tablespoons oyster sauce",
+        "1 tablespoon cornstarch",
+        "1 teaspoon sesame oil",
+        "Cooked rice for serving"
+      ],
+      "instructions": [
+        "Marinate sliced beef with 1 tablespoon soy sauce and cornstarch for 15 minutes.",
+        "Heat oil in a large wok or skillet over high heat.",
+        "Add beef and stir-fry until browned, about 3-4 minutes. Remove and set aside.",
+        "Add vegetables to the same pan and stir-fry for 3-4 minutes until crisp-tender.",
+        "Add garlic and cook for 30 seconds until fragrant.",
+        "Return beef to pan and add remaining soy sauce, oyster sauce, and sesame oil.",
+        "Stir everything together and cook for 1-2 minutes more.",
+        "Serve hot over steamed rice."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Chocolate Chip Cookies",
+      "category": "dessert",
+      "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=400&h=300&fit=crop",
+      "cookTime": "30 mins",
+      "difficulty": "Easy",
+      "rating": 4.9,
+      "description": "Soft and chewy chocolate chip cookies that are crispy on the edges and tender in the center. A classic favorite!",
+      "ingredients": [
+        "2¼ cups all-purpose flour",
+        "1 teaspoon baking soda",
+        "1 teaspoon salt",
+        "1 cup butter, softened",
+        "¾ cup granulated sugar",
+        "¾ cup brown sugar",
+        "2 large eggs",
+        "2 teaspoons vanilla extract",
+        "2 cups chocolate chips"
+      ],
+      "instructions": [
+        "Preheat oven to 375°F (190°C).",
+        "In a bowl, whisk together flour, baking soda, and salt.",
+        "In a large bowl, cream together butter and both sugars until light and fluffy.",
+        "Beat in eggs one at a time, then add vanilla extract.",
+        "Gradually mix in the flour mixture until just combined.",
+        "Stir in chocolate chips.",
+        "Drop rounded tablespoons of dough onto ungreased baking sheets.",
+        "Bake for 9-11 minutes until golden brown around edges.",
+        "Cool on baking sheet for 5 minutes before transferring to wire rack."
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Fresh Fruit Smoothie",
+      "category": "drinks",
+      "image": "https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=400&h=300&fit=crop",
+      "cookTime": "5 mins",
+      "difficulty": "Easy",
+      "rating": 4.6,
+      "description": "A refreshing and healthy smoothie packed with fresh fruits and yogurt. Perfect for breakfast or a post-workout snack.",
+      "ingredients": [
+        "1 banana, peeled",
+        "1 cup mixed berries",
+        "½ cup Greek yogurt",
+        "½ cup milk",
+        "1 tablespoon honey",
+        "½ cup ice cubes",
+        "1 tablespoon chia seeds (optional)"
+      ],
+      "instructions": [
+        "Add banana, berries, and yogurt to a blender.",
+        "Pour in milk and add honey for sweetness.",
+        "Add ice cubes for a thicker, colder smoothie.",
+        "Blend on high speed for 60-90 seconds until smooth and creamy.",
+        "Taste and adjust sweetness with more honey if needed.",
+        "Add chia seeds and pulse briefly to mix in.",
+        "Pour into glasses and serve immediately.",
+        "Garnish with fresh berries or mint leaves if desired."
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Avocado Toast",
+      "category": "breakfast",
+      "image": "https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?w=400&h=300&fit=crop",
+      "cookTime": "10 mins",
+      "difficulty": "Easy",
+      "rating": 4.2,
+      "description": "Simple yet delicious avocado toast topped with fresh ingredients. A healthy and satisfying breakfast option.",
+      "ingredients": [
+        "2 slices whole grain bread",
+        "1 ripe avocado",
+        "1 tablespoon lemon juice",
+        "Salt and pepper to taste",
+        "2 cherry tomatoes, sliced",
+        "1 tablespoon olive oil",
+        "Red pepper flakes (optional)",
+        "Fresh herbs for garnish"
+      ],
+      "instructions": [
+        "Toast bread slices until golden brown and crispy.",
+        "Cut avocado in half, remove pit, and scoop flesh into a bowl.",
+        "Mash avocado with lemon juice, salt, and pepper until smooth.",
+        "Spread mashed avocado evenly on toast slices.",
+        "Top with sliced cherry tomatoes.",
+        "Drizzle with olive oil and sprinkle with red pepper flakes.",
+        "Garnish with fresh herbs like cilantro or basil.",
+        "Serve immediately while toast is still warm."
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Margherita Pizza",
+      "category": "dinner",
+      "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400&h=300&fit=crop",
+      "cookTime": "45 mins",
+      "difficulty": "Medium",
+      "rating": 4.7,
+      "description": "Classic Italian Margherita pizza with fresh mozzarella, basil, and tomato sauce on a crispy homemade crust.",
+      "ingredients": [
+        "1 pizza dough (store-bought or homemade)",
+        "½ cup pizza sauce",
+        "8 oz fresh mozzarella, sliced",
+        "2 tomatoes, sliced",
+        "Fresh basil leaves",
+        "2 tablespoons olive oil",
+        "Salt and pepper to taste",
+        "Parmesan cheese for sprinkling"
+      ],
+      "instructions": [
+        "Preheat oven to 475°F (245°C) with pizza stone if available.",
+        "Roll out pizza dough on a floured surface to desired thickness.",
+        "Transfer dough to pizza pan or parchment paper.",
+        "Spread pizza sauce evenly over dough, leaving border for crust.",
+        "Arrange mozzarella slices and tomato slices on top.",
+        "Drizzle with olive oil and season with salt and pepper.",
+        "Bake for 12-15 minutes until crust is golden and cheese is bubbly.",
+        "Remove from oven and immediately top with fresh basil leaves.",
+        "Sprinkle with parmesan cheese and serve hot."
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Tiramisu",
+      "category": "dessert",
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=400&h=300&fit=crop",
+      "cookTime": "4 hours",
+      "difficulty": "Hard",
+      "rating": 4.4,
+      "description": "Classic Italian tiramisu with layers of coffee-soaked ladyfingers and creamy mascarpone. A decadent dessert that's worth the effort.",
+      "ingredients": [
+        "6 egg yolks",
+        "¾ cup sugar",
+        "1¼ cups mascarpone cheese",
+        "1¾ cups heavy cream",
+        "2 packages ladyfinger cookies",
+        "1 cup strong espresso, cooled",
+        "3 tablespoons coffee liqueur",
+        "Unsweetened cocoa powder for dusting"
+      ],
+      "instructions": [
+        "Whisk egg yolks and sugar in a double boiler until thick and pale.",
+        "Remove from heat and whisk in mascarpone until smooth.",
+        "In a separate bowl, whip heavy cream to stiff peaks.",
+        "Gently fold whipped cream into mascarpone mixture.",
+        "Combine espresso and coffee liqueur in a shallow dish.",
+        "Quickly dip each ladyfinger in coffee mixture and arrange in dish.",
+        "Spread half the mascarpone mixture over ladyfingers.",
+        "Repeat with another layer of dipped ladyfingers and remaining cream.",
+        "Refrigerate for at least 4 hours or overnight.",
+        "Dust with cocoa powder before serving."
+      ]
+    }
+  ]
+}

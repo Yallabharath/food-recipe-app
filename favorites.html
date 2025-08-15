@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorites - FoodieHub</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <i class="fas fa-utensils"></i>
+                <span>FoodieHub</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="recipe-list.html" class="nav-link">Recipes</a></li>
+                <li><a href="favorites.html" class="nav-link active">Favorites</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><button class="theme-toggle" id="themeToggle" title="Toggle dark mode"><i class="fas fa-moon"></i></button></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="favorites-main">
+        <div class="container">
+            <div class="page-header">
+                <h1><i class="fas fa-heart"></i> My Favorite Recipes</h1>
+                <p>Your saved recipes collection</p>
+            </div>
+            
+            <div class="favorites-content">
+                <div class="recipe-grid" id="favoritesGrid">
+                    <!-- Favorite recipes will be loaded here -->
+                </div>
+                
+                <div class="empty-favorites" id="emptyFavorites">
+                    <i class="fas fa-heart-broken"></i>
+                    <h3>No favorites yet</h3>
+                    <p>Start exploring recipes and add them to your favorites!</p>
+                    <a href="recipe-list.html" class="btn-primary">Browse Recipes</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 FoodieHub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="favorites.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodieHub - Delicious Recipes</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <i class="fas fa-utensils"></i>
+                <span>FoodieHub</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="recipe-list.html" class="nav-link">Recipes</a></li>
+                <li><a href="favorites.html" class="nav-link">Favorites</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><button class="theme-toggle" id="themeToggle" title="Toggle dark mode"><i class="fas fa-moon"></i></button></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Discover Amazing Recipes</h1>
+                <p>Find your next favorite dish from thousands of delicious recipes</p>
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search for recipes...">
+                    <button id="searchBtn" title="Search recipes"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="categories">
+            <div class="container">
+                <h2>Browse by Category</h2>
+                <div class="category-grid">
+                    <div class="category-card" data-category="breakfast">
+                        <i class="fas fa-coffee"></i>
+                        <h3>Breakfast</h3>
+                    </div>
+                    <div class="category-card" data-category="lunch">
+                        <i class="fas fa-hamburger"></i>
+                        <h3>Lunch</h3>
+                    </div>
+                    <div class="category-card" data-category="dinner">
+                        <i class="fas fa-drumstick-bite"></i>
+                        <h3>Dinner</h3>
+                    </div>
+                    <div class="category-card" data-category="dessert">
+                        <i class="fas fa-ice-cream"></i>
+                        <h3>Dessert</h3>
+                    </div>
+                    <div class="category-card" data-category="drinks">
+                        <i class="fas fa-cocktail"></i>
+                        <h3>Drinks</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured">
+            <div class="container">
+                <h2>Featured Recipes</h2>
+                <div class="carousel-container">
+                    <div class="carousel" id="featuredCarousel">
+                        <!-- Featured recipes will be loaded here -->
+                    </div>
+                    <button class="carousel-btn prev" id="prevBtn" title="Previous recipes"><i class="fas fa-chevron-left"></i></button>
+                    <button class="carousel-btn next" id="nextBtn" title="Next recipes"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 FoodieHub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="loading-spinner" id="loadingSpinner">
+        <div class="spinner"></div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="search.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - FoodieHub</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <i class="fas fa-utensils"></i>
+                <span>FoodieHub</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="recipe-list.html" class="nav-link">Recipes</a></li>
+                <li><a href="favorites.html" class="nav-link">Favorites</a></li>
+                <li><a href="about.html" class="nav-link active">About</a></li>
+                <li><button class="theme-toggle" id="themeToggle" title="Toggle dark mode" aria-label="Toggle dark mode"><i class="fas fa-moon"></i></button></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="about-main">
+        <div class="container">
+            <div class="about-content">
+                <section class="about-hero">
+                    <h1>About FoodieHub</h1>
+                    <p>Your ultimate destination for discovering and sharing amazing recipes from around the world.</p>
+                </section>
+
+                <section class="about-description">
+                    <div class="about-text">
+                        <h2>Our Mission</h2>
+                        <p>At FoodieHub, we believe that great food brings people together. Our mission is to make cooking accessible, enjoyable, and inspiring for everyone, regardless of their skill level.</p>
+                        
+                        <h2>What We Offer</h2>
+                        <ul>
+                            <li>Thousands of carefully curated recipes</li>
+                            <li>Easy-to-follow step-by-step instructions</li>
+                            <li>Recipe categorization and search functionality</li>
+                            <li>Personal favorites collection</li>
+                            <li>Mobile-friendly responsive design</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="contact-section">
+                    <h2>Get in Touch</h2>
+                    <div class="contact-content">
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>hello@foodiehub.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+1 (555) 123-4567</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>123 Recipe Street, Food City, FC 12345</span>
+                            </div>
+                        </div>
+                        
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 FoodieHub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

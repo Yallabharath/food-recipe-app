@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Details - FoodieHub</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <i class="fas fa-utensils"></i>
+                <span>FoodieHub</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="recipe-list.html" class="nav-link">Recipes</a></li>
+                <li><a href="favorites.html" class="nav-link">Favorites</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><button class="theme-toggle" id="themeToggle" title="Toggle dark mode"><i class="fas fa-moon"></i></button></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="recipe-detail-main">
+        <div class="recipe-banner" id="recipeBanner">
+            <!-- Banner image will be loaded here -->
+        </div>
+        
+        <div class="container">
+            <div class="recipe-content">
+                <div class="recipe-header">
+                    <h1 id="recipeTitle">Loading...</h1>
+                    <div class="recipe-meta">
+                        <span class="cook-time"><i class="fas fa-clock"></i> <span id="cookTime">-</span></span>
+                        <span class="difficulty"><i class="fas fa-signal"></i> <span id="difficulty">-</span></span>
+                        <span class="category"><i class="fas fa-tag"></i> <span id="category">-</span></span>
+                    </div>
+                    <button class="favorite-btn" id="favoriteBtn">
+                        <i class="far fa-heart"></i> Add to Favorites
+                    </button>
+                </div>
+
+                <div class="recipe-body">
+                    <div class="recipe-description">
+                        <p id="recipeDescription">Loading description...</p>
+                    </div>
+
+                    <div class="recipe-sections">
+                        <div class="ingredients-section">
+                            <h2>Ingredients</h2>
+                            <ul class="ingredients-list" id="ingredientsList">
+                                <!-- Ingredients will be loaded here -->
+                            </ul>
+                        </div>
+
+                        <div class="instructions-section">
+                            <h2>Instructions</h2>
+                            <ol class="instructions-list" id="instructionsList">
+                                <!-- Instructions will be loaded here -->
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 FoodieHub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="loading-spinner" id="loadingSpinner">
+        <div class="spinner"></div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="favorites.js"></script>
+    <script src="recipe.js"></script>
+    <script src="dummy-recipe-detail.js"></script>
+</body>
+</html>

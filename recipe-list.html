@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes - FoodieHub</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="filter-styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <i class="fas fa-utensils"></i>
+                <span>FoodieHub</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="recipe-list.html" class="nav-link active">Recipes</a></li>
+                <li><a href="favorites.html" class="nav-link">Favorites</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><button class="theme-toggle" id="themeToggle" title="Toggle dark mode"><i class="fas fa-moon" aria-hidden="true"></i><span class="sr-only">Toggle dark mode</span></button></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="recipe-list-main">
+        <div class="container">
+            <div class="page-header">
+                <h1>All Recipes</h1>
+                <div class="filters-section">
+                    <div class="search-bar">
+                        <div class="search-input-wrapper">
+                            <i class="fas fa-search search-icon"></i>
+                            <input type="text" id="recipeSearch" placeholder="Search recipes by name or ingredient...">
+                        </div>
+                    </div>
+                    
+                    <div class="filter-tabs">
+                        <div class="filter-group">
+                            <label for="categoryFilter"><i class="fas fa-utensils"></i> Category</label>
+                            <select id="categoryFilter" name="categoryFilter">
+                                <option value="">All Categories</option>
+                                <option value="breakfast">🥞 Breakfast</option>
+                                <option value="lunch">🥗 Lunch</option>
+                                <option value="dinner">🍽️ Dinner</option>
+                                <option value="dessert">🍰 Dessert</option>
+                                <option value="drinks">🥤 Drinks</option>
+                            </select>
+                        </div>
+                        
+                        <div class="filter-group">
+                            <label for="timeFilter"><i class="fas fa-clock"></i> Cook Time</label>
+                            <select id="timeFilter" name="timeFilter">
+                                <option value="">Any Time</option>
+                                <option value="quick">⚡ Quick (≤15 mins)</option>
+                                <option value="medium">⏱️ Medium (16-30 mins)</option>
+                                <option value="long">🕐 Long (30+ mins)</option>
+                            </select>
+                        </div>
+                        
+                        <div class="filter-group">
+                            <label for="difficultyFilter"><i class="fas fa-signal"></i> Difficulty</label>
+                            <select id="difficultyFilter" title="Select difficulty level">
+                                <option value="">Any Level</option>
+                                <option value="easy">😊 Easy</option>
+                                <option value="medium">🤔 Medium</option>
+                                <option value="hard">😤 Hard</option>
+                            </select>
+                        </div>
+                        
+                        <div class="filter-group">
+                            <label><i class="fas fa-star"></i> Rating</label>
+                            <select id="ratingFilter" title="Select rating">
+                                <option value="">Any Rating</option>
+                                <option value="5">⭐⭐⭐⭐⭐ 5 Stars</option>
+                                <option value="4">⭐⭐⭐⭐ 4+ Stars</option>
+                                <option value="3">⭐⭐⭐ 3+ Stars</option>
+                            </select>
+                        </div>
+                        
+                        <div class="filter-actions">
+                            <button id="clearFilters" class="clear-btn">
+                                <i class="fas fa-times"></i> Clear All
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipe-grid" id="recipeGrid">
+                <!-- Recipe cards will be loaded here -->
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 FoodieHub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="loading-spinner" id="loadingSpinner">
+        <div class="spinner"></div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="dummy-api.js"></script>
+</body>
+</html>
